@@ -68,15 +68,15 @@ elif menu=="今日のごはん":
     
     if 0 <= kekka and kekka <= 10: 
         photonumber=random.randint(1,3)
-        st.image(str(photonumber)+".jpg")          
+        st.image(str(photonumber)+".JPG")          
     
     elif 11 <= kekka and kekka <= 20:
         photonumber=random.randint(4,6)
-        st.image(str(photonumber)+".jpg") 
+        st.image(str(photonumber)+".JPG") 
         
     else:
         photonumber=random.randint(7,9)
-        st.image(str(photonumber)+".jpg") 
+        st.image(str(photonumber)+".JPG") 
 
 elif menu=="選択無し":
     None
