@@ -85,7 +85,7 @@ elif menu=="選択なし":
     st.write('')
     
 elif menu=="めいのおすすめ":
-    st.image("kani.JPG")
+    st.image("kani.jpg")
 
     
     
